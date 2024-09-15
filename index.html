@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>DBU Calculadora</title>
+  
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+  <center>
+  <h1 id="title">Calculadora</h1>
+  </center>
+  <div id="main">
+    <main>
+    <div id="submit">
+  <form onsubmit="return funcao()">
+    <input type="number" id="numero" placeholder="Digite Um Rebirth" required>
+    <input type="number" id="numero2" onclick="funcao()" placeholder="Digite Um Multiplicador" required>
+    <button type="submit" id="botaocalcular">Calcular</button>
+    </div>
+    </main>
+    <div id="corpo">
+      <center>
+      <img src="https://media.discordapp.net/attachments/1284907515381022720/1284907548956164157/1726416194404.png?ex=66e856e8&is=66e70568&hm=70d29f08f00751d32a992aac6548322a829d9517fe972e13d7b6e23fe59a70ec&" id="imagem">
+        <p id="resposta"> Stats-Gain: </p>
+      </center>
+    </div>
+  </form>
+    <div id="footer">
+      <button onclick="menos()" id="down" style="color: rgb(205,0,0);">NPC ↓</button>
+      <button onclick="mais()" id="up" style="color: rgb(0,205,0);">NPC ↑</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
