@@ -14,6 +14,8 @@ function funcao() {
   multi = numero/5+1;
   var resultado = multi*multiplier[contagem];
   var multi = document.getElementById("numero2").value;
+  if(multi<0) {multi = 0}
+  if(multi>3) {multi = 3}
   resultado*=multi
   if(resultado>=c1[0]) {
     while(resultado>=c1[n+1] && n<c1.length) {
