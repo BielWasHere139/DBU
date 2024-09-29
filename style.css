@@ -70,10 +70,10 @@ body {
   margin: auto;
   border: 1px solid black;
   transform: translate(-50%, -50%);
-  margin-top: 200px;
+  margin-top: 100px;
 }
 #resposta {
-  padding-top:10px;
+  padding-top: 100px;
   -webkit-text-stroke: 1px rgb(75,55,0);
   color: rgb(255,215,0);
 }
