@@ -21,9 +21,10 @@ body {
   border-radius: 5px;
 }
 .slidecontainer {
+  display: flex;
+  align-items: center;
   width: 100%;
 }
-
 .slider {
   -webkit-appearance: none;
   border-radius: 5px;
@@ -35,11 +36,9 @@ body {
   -webkit-transition: .2s;
   transition: opacity .2s;
 }
-
 .slider:hover {
   opacity: 1;
 }
-
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
@@ -49,7 +48,6 @@ body {
   background: #04AA6D;
   cursor: pointer;
 }
-
 .slider::-moz-range-thumb {
   width: 25px;
   height: 25px;
@@ -75,7 +73,7 @@ body {
   margin-top: 100px;
 }
 #resposta {
-  padding-top: 10px;
+  padding-top:10px;
   -webkit-text-stroke: 1px rgb(75,55,0);
   color: rgb(255,215,0);
 }
