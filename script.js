@@ -14,25 +14,23 @@ function funcao() {
   multi = numero/5+1;
   var resultado = multi*multiplier[contagem];
   var multi = document.getElementById("numero2").value;
-  if(multi<0) {multi = 0}
-  if(multi>3) {multi = 3}
   resultado*=multi
   if(resultado>=c1[0]) {
     while(resultado>=c1[n+1] && n<c1.length) {
       n++
     }
-document.getElementById("resposta").innerHTML = "Stats-Gain: " +(resultado/c1[n]).toFixed(2)+c2[n];
+document.getElementById("resposta").innerHTML = "Stats-Ganho: " +(resultado/c1[n]).toFixed(2)+c2[n]+" ("+multi+"x)";
     n=0;
 if(resultado/Qi>=9.22) 
     {
-document.getElementById("resposta").innerHTML = "Stats-Gain: 9.22Qn";
+document.getElementById("resposta").innerHTML = "Stats-Ganho: 9.22Qn ("+ multi+"x)";
     }
   }
   else {
-document.getElementById("resposta").innerHTML = "Stats-Gain: "+resultado;
+document.getElementById("resposta").innerHTML = "Stats-Ganho: "+resultado+" ("+multi+"x)";
   }
   if(resultado<0) {
-    document.getElementById("resposta").innerHTML = "Stats-Gain: 0"
+    document.getElementById("resposta").innerHTML = "Stats-Ganho: 0"+" ("+multi+"x)"
   }
   return false;
 }
