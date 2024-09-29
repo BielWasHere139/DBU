@@ -73,7 +73,7 @@ body {
   margin-top: 100px;
 }
 #resposta {
-  padding-top: -10px;
+  padding-top: 20px;
   -webkit-text-stroke: 1px rgb(75,55,0);
   color: rgb(255,215,0);
 }
